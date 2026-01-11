@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="screenshots/analysis-banner.png" width="750">
+  <img src="https://raw.githubusercontent.com/Zoje-stack/Network-Traffic-Analysis/1ab89e9fd46b9f3502d444d150ad038a2db50a8e/Analysis%20banner.png" width="800">
 </p>
 
-# Network Traffic Analysis Report
+# Network Traffic Analysis
 <p align="center">
   <img src="https://img.shields.io/badge/SOC-Traffic%20Monitoring-blue">
   <img src="https://img.shields.io/badge/Wireshark-Packet%20Analysis-green">
@@ -45,9 +45,12 @@ The investigation followed a standard SOC workflow:
 
 ## 4. Baseline Traffic Analysis
 
+## 🚨 Port Scanning Detection
+
 <p align="center">
-  <img src="screenshots/normal-traffic.png" width="800">
+  <img src="https://raw.githubusercontent.com/Zoje-stack/Network-Traffic-Analysis/1ab89e9fd46b9f3502d444d150ad038a2db50a8e/normal-traffic.png" width="850">
 </p>
+
 
 ### Observed Traffic
 - ICMP echo requests (ping)
@@ -61,7 +64,7 @@ This traffic represents legitimate communication with no indicators of malicious
 ## 5. Port Scanning Analysis
 
 <p align="center">
-  <img src="screenshots/port-scan-wireshark.png" width="800">
+  <img src="https://raw.githubusercontent.com/Zoje-stack/Network-Traffic-Analysis/1ab89e9fd46b9f3502d444d150ad038a2db50a8e/Port%20scan%20wireshark.png" width="850">
 </p>
 
 ### Attack Description
@@ -73,7 +76,7 @@ The traffic pattern clearly indicates reconnaissance activity commonly performed
 ## 6. Open Port Identification (SSH)
 
 <p align="center">
-  <img src="screenshots/syn-ack-port22.png" width="800">
+  <img src="https://raw.githubusercontent.com/Zoje-stack/Network-Traffic-Analysis/1ab89e9fd46b9f3502d444d150ad038a2db50a8e/SYN-ACK%20Port%2022.png" width="850">
 </p>
 
 ### Findings
@@ -86,7 +89,7 @@ Open management ports significantly increase attack surface if not properly secu
 ## 7. SSH Brute-Force Attack Analysis
 
 <p align="center">
-  <img src="screenshots/ssh-bruteforce.png" width="800">
+  <img src="https://raw.githubusercontent.com/Zoje-stack/Network-Traffic-Analysis/1ab89e9fd46b9f3502d444d150ad038a2db50a8e/ssh-bruteforce-traffic.png" width="850">
 </p>
 
 ### Attack Description
